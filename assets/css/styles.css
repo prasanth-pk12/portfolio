@@ -102,12 +102,8 @@ img {
   margin-right: var(--mb-2);
 }
 
-section {
-  width: 100vw;
-}
-
 .header {
-  width: 80vw;
+  width: 100%;
   position: fixed;
   top: 0;
   left: 0;
@@ -432,11 +428,13 @@ section {
 @media screen and (min-width: 768px) {
   body {
     margin: 0;
+    width: 100vw;
   }
 
   .section {
     padding-top: 4rem;
     padding-bottom: 3rem;
+    width: 100vw;
   }
   .section-title {
     margin-bottom: var(--mb-6);
