@@ -104,6 +104,7 @@ img {
 
 main {
   margin: 0 auto;
+  border: 2 px dotted brown;
 }
 
 section {
