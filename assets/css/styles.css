@@ -429,12 +429,13 @@ img {
   body {
     margin: 0;
     width: 100vw;
+    border: 2px solid red;
   }
 
   .section {
     padding-top: 4rem;
     padding-bottom: 3rem;
-    width: 100vw;
+    width: calc(100vw-);
   }
   .section-title {
     margin-bottom: var(--mb-6);
