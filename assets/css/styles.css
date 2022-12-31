@@ -102,20 +102,6 @@ img {
   margin-right: var(--mb-2);
 }
 
-main {
-  margin: 0 auto;
-  overflow-x: hidden;
-}
-
-header,
-footer {
-  width: 100%;
-}
-
-section {
-  width: 100%;
-}
-
 .header {
   width: 100%;
   position: fixed;
