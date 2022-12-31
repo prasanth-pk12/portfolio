@@ -240,8 +240,12 @@ img {
 .button:hover {
   box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
 }
-
+.body {
+  width: 100vw;
+  margin: 0 auto;
+}
 .section {
+  width: 100vw;
   padding-top: 3rem;
   padding-bottom: 2rem;
 }
