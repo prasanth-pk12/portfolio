@@ -102,8 +102,14 @@ img {
   margin-right: var(--mb-2);
 }
 
+main {
+  margin: 0 auto;
+}
+
+section {
+  width: 110%;
+}
 .header {
-  border: 2px solid red;
   width: 100%;
   position: fixed;
   top: 0;
