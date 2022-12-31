@@ -122,10 +122,6 @@ img {
 }
 
 @media screen and (max-width: 768px) {
-  .header {
-    width: 80%;
-  }
-
   .nav_menu {
     position: fixed;
     top: var(--header-height);
@@ -431,7 +427,8 @@ img {
 
 @media screen and (min-width: 768px) {
   body {
-    margin: auto;
+    margin: auto auto;
+    width: 90%;
   }
 
   .section {
