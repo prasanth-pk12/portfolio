@@ -103,7 +103,7 @@ img {
 }
 
 .header {
-  width: 80%;
+  width: 100%;
   position: fixed;
   top: 0;
   left: 0;
@@ -527,4 +527,14 @@ img {
   .home_img {
     right: 10%;
   }
+}
+
+main {
+  width: 100%;
+}
+section {
+  width: 100%;
+}
+footer {
+  width: 100%;
 }
