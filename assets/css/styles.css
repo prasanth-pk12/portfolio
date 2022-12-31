@@ -154,7 +154,7 @@ img {
 .nav_link:hover::after {
   position: absolute;
   content: "";
-  width: 100%;
+  width: 80vh;
   height: 0.18rem;
   left: 0;
   top: 2rem;
@@ -175,7 +175,7 @@ img {
 .active::after {
   position: absolute;
   content: "";
-  width: 100%;
+  width: 80vh;
   height: 0.18rem;
   left: 0;
   top: 2rem;
