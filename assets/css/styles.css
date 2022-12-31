@@ -122,6 +122,10 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    border: 10px solid red;
+  }
+
   .nav_menu {
     position: fixed;
     top: var(--header-height);
@@ -240,12 +244,8 @@ img {
 .button:hover {
   box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
 }
-.body {
-  width: 100vw;
-  margin: 0 auto;
-}
+
 .section {
-  width: 100vw;
   padding-top: 3rem;
   padding-bottom: 2rem;
 }
@@ -432,14 +432,11 @@ img {
 @media screen and (min-width: 768px) {
   body {
     margin: 0;
-    width: 100vw;
-    border: 2px solid red;
   }
 
   .section {
     padding-top: 4rem;
     padding-bottom: 3rem;
-    width: calc(100vw-);
   }
   .section-title {
     margin-bottom: var(--mb-6);
