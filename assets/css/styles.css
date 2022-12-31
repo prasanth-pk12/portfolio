@@ -427,8 +427,7 @@ img {
 
 @media screen and (min-width: 768px) {
   body {
-    margin: auto auto;
-    width: 100%;
+    margin: 0 auto;
   }
 
   .section {
