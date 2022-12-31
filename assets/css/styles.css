@@ -104,12 +104,18 @@ img {
 
 main {
   margin: 0 auto;
-  border: 2 px dotted brown;
+  overflow-x: hidden;
+}
+
+header,
+footer {
+  width: 100%;
 }
 
 section {
-  width: 110%;
+  width: 100%;
 }
+
 .header {
   width: 100%;
   position: fixed;
@@ -130,10 +136,6 @@ section {
 }
 
 @media screen and (max-width: 768px) {
-  body {
-    border: 2px solid blue;
-  }
-
   .nav_menu {
     position: fixed;
     top: var(--header-height);
