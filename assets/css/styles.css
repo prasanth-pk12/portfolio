@@ -103,7 +103,8 @@ img {
 }
 
 .header {
-  width: 90%;
+  border: 2px solid red;
+  width: 100%;
   position: fixed;
   top: 0;
   left: 0;
@@ -122,6 +123,10 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    border: 2px solid blue;
+  }
+
   .nav_menu {
     position: fixed;
     top: var(--header-height);
